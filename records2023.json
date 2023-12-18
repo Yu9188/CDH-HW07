@@ -1,0 +1,248 @@
+{
+  "$id": "1",
+  "$values": [
+    {
+      "$id": "2",
+      "SelectedStudent": {
+        "$id": "3",
+        "StudentId": "A10004",
+        "StudentName": "黃大山"
+      },
+      "SelectedCourse": {
+        "$id": "4",
+        "CourseName": "視窗程式設計",
+        "Type": "選修",
+        "Point": 3,
+        "OpeningClass": "四技二乙",
+        "Tutor": {
+          "$id": "5",
+          "TeacherName": "陳定宏",
+          "TeachingCourses": {
+            "$id": "6",
+            "$values": [
+              {
+                "$id": "7",
+                "CourseName": "視窗程式設計",
+                "Type": "選修",
+                "Point": 3,
+                "OpeningClass": "四技二甲",
+                "Tutor": {
+                  "$ref": "5"
+                }
+              },
+              {
+                "$ref": "4"
+              },
+              {
+                "$id": "8",
+                "CourseName": "視窗程式設計",
+                "Type": "選修",
+                "Point": 3,
+                "OpeningClass": "四技二丙",
+                "Tutor": {
+                  "$ref": "5"
+                }
+              },
+              {
+                "$id": "9",
+                "CourseName": "視窗程式設計",
+                "Type": "必修",
+                "Point": 3,
+                "OpeningClass": "五專三甲",
+                "Tutor": {
+                  "$ref": "5"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "$id": "10",
+      "SelectedStudent": {
+        "$ref": "3"
+      },
+      "SelectedCourse": {
+        "$id": "11",
+        "CourseName": "人工智慧與應用",
+        "Type": "選修",
+        "Point": 3,
+        "OpeningClass": "博研電子一甲等合開",
+        "Tutor": {
+          "$id": "12",
+          "TeacherName": "李宗儒",
+          "TeachingCourses": {
+            "$id": "13",
+            "$values": [
+              {
+                "$id": "14",
+                "CourseName": "Android程式設計",
+                "Type": "選修",
+                "Point": 3,
+                "OpeningClass": "五專四甲",
+                "Tutor": {
+                  "$ref": "12"
+                }
+              },
+              {
+                "$ref": "11"
+              },
+              {
+                "$id": "15",
+                "CourseName": "動態程式語言",
+                "Type": "選修",
+                "Point": 3,
+                "OpeningClass": "四技資工三甲等合開",
+                "Tutor": {
+                  "$ref": "12"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "$id": "16",
+      "SelectedStudent": {
+        "$ref": "3"
+      },
+      "SelectedCourse": {
+        "$id": "17",
+        "CourseName": "圖像化程式設計實習",
+        "Type": "系定選修",
+        "Point": 2,
+        "OpeningClass": "五專資工一甲",
+        "Tutor": {
+          "$id": "18",
+          "TeacherName": "鄧瑞哲",
+          "TeachingCourses": {
+            "$id": "19",
+            "$values": [
+              {
+                "$id": "20",
+                "CourseName": "微積分(一)",
+                "Type": "必修",
+                "Point": 3,
+                "OpeningClass": "四技資工一丙",
+                "Tutor": {
+                  "$ref": "18"
+                }
+              },
+              {
+                "$id": "21",
+                "CourseName": "圖像化程式設計",
+                "Type": "系定選修",
+                "Point": 2,
+                "OpeningClass": "五專資工一甲",
+                "Tutor": {
+                  "$ref": "18"
+                }
+              },
+              {
+                "$ref": "17"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "$id": "22",
+      "SelectedStudent": {
+        "$ref": "3"
+      },
+      "SelectedCourse": {
+        "$ref": "14"
+      }
+    },
+    {
+      "$id": "23",
+      "SelectedStudent": {
+        "$id": "24",
+        "StudentId": "A10002",
+        "StudentName": "王小美"
+      },
+      "SelectedCourse": {
+        "$ref": "9"
+      }
+    },
+    {
+      "$id": "25",
+      "SelectedStudent": {
+        "$ref": "24"
+      },
+      "SelectedCourse": {
+        "$ref": "14"
+      }
+    },
+    {
+      "$id": "26",
+      "SelectedStudent": {
+        "$ref": "24"
+      },
+      "SelectedCourse": {
+        "$ref": "20"
+      }
+    },
+    {
+      "$id": "27",
+      "SelectedStudent": {
+        "$id": "28",
+        "StudentId": "A10003",
+        "StudentName": "林小英"
+      },
+      "SelectedCourse": {
+        "$ref": "8"
+      }
+    },
+    {
+      "$id": "29",
+      "SelectedStudent": {
+        "$ref": "28"
+      },
+      "SelectedCourse": {
+        "$ref": "11"
+      }
+    },
+    {
+      "$id": "30",
+      "SelectedStudent": {
+        "$ref": "28"
+      },
+      "SelectedCourse": {
+        "$ref": "21"
+      }
+    },
+    {
+      "$id": "31",
+      "SelectedStudent": {
+        "$id": "32",
+        "StudentId": "A10001",
+        "StudentName": "陳小明"
+      },
+      "SelectedCourse": {
+        "$ref": "9"
+      }
+    },
+    {
+      "$id": "33",
+      "SelectedStudent": {
+        "$ref": "32"
+      },
+      "SelectedCourse": {
+        "$ref": "15"
+      }
+    },
+    {
+      "$id": "34",
+      "SelectedStudent": {
+        "$ref": "32"
+      },
+      "SelectedCourse": {
+        "$ref": "17"
+      }
+    }
+  ]
+}
